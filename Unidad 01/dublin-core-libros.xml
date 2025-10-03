@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<catalogo xmlns:dc="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">
+<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/">
     
     <libro>
         <dc:title>Aprendiendo XML</dc:title>
