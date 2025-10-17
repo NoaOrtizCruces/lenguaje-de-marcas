@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+    <question type="multichoice">
+
+        <name>
+            <text>Pregunta2</text>
+        </name>
+
+        <questiontext format="html">
+            <text>¿Cuántas raíces puede tener un documento XML?</text>
+        </questiontext>
+
+        <defaultgrade>5</defaultgrade>
+        <single>true</single>
+        <shuffleanswers>1</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+
+        <answer fraction="100">
+            <text>No.</text>
+        </answer>
+
+        <answer fraction="0">
+            <text>Sí.</text>
+        </answer>
+
+        <answer fraction="0">
+            <text>Ninguna es correcta, es complicado.</text>
+        </answer>
+
+    </question>
+
+    <question type="truefalse">
+
+        <name>
+            <text>Pregunta 2</text>
+        </name>
+
+        <questiontext format="html">
+            <text>¿XML se utiliza para la presentación de la información exclusivamente?</text>
+        </questiontext>
+
+        <defaultgrade>5</defaultgrade>
+
+        <answer fraction="100">
+            <text>No.</text>
+        </answer>
+        
+        <answer fraction="0">
+            <text>Sí.</text>
+        </answer>
+
+    </question>
+
+</quiz>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventario SYSTEM "inven.dtd">
+
+<inventario>
+    <item sku="1" moneda="EUR">
+        <nombre>Mochila</nombre>
+        <precio>20</precio>
+        <stock>12</stock>
+    </item>
+    <item sku="2" moneda="USD">
+        <nombre>Bolso</nombre>
+        <precio>15</precio>
+        <stock>39</stock>
+    </item>
+</inventario>
