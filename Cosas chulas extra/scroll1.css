@@ -1,0 +1,29 @@
+body {
+    max-height: 150px;
+  }
+  
+  p {
+    font-size: 8rem;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    /* background: deeppink; */
+  }
+  
+  .box {
+    animation: rotate both;
+    animation-timeline: scroll();
+    animation-range-start: entry 5%;
+    animation-range-end: exit 110%;
+    /* animation-range: entry 30% exit 70%; */
+  }
+  
+  @keyframes rotate {
+    from { opacity: 1; rotate: 0; }
+    to { opacity: 0; rotate: 360deg;  }
+  }
