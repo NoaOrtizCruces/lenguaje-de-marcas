@@ -20,10 +20,11 @@ body {
     animation-timeline: scroll();
     animation-range-start: entry 5%;
     animation-range-end: exit 110%;
+    animation-timing-function: linear;
     /* animation-range: entry 30% exit 70%; */
   }
   
   @keyframes rotate {
     from { opacity: 1; rotate: 0; }
-    to { opacity: 0; rotate: 360deg;  }
+    to { opacity: 0; rotate: 420deg;  }
   }
